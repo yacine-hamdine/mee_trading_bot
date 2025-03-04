@@ -1,0 +1,17 @@
+{
+  "name": "meetradingbot",
+  "version": "1.0.0",
+  "description": "This is an **automated trading bot** for **Bitget**, built with Python. It monitors selected cryptocurrency pairs, buys when the price drops **10%**, sells when the price rises **20%**, and has a **stop loss at 30%**. Each coin has an independent **mini-bot**, ensuring **asynchronous** execution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "postgres": "^3.4.5"
+  }
+}
